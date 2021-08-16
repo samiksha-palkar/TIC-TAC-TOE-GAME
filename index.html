@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC TAC TOE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="http://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    
+    <div id="container">
+        
+        <!-- starting page -->
+        <div id="startingPage">
+            <h2>TIC TAC TOE</h2>
+            <hr>
+              <!-- <div id="line">
+                <h4>SELECT WHICH YOU WANT TO BE?</h4>
+                <div id="button">
+                    <button id="playerX" class="choose">Player ( X )</button>
+                    <button id="playerO" class="choose">Player ( O )</button>
+                </div> 
+            </div>  -->
+            <!-- main page-->
+             <div id="mainPage">
+                <div id="headerBtns">
+                    <button id="">X Turn</button>
+                    <button id="O_Turn">O Turn</button>
+                    <div id="showChange"></div>
+                </div>
+                <div id="gameBoard">
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                    <div class="boxes"></div>
+                </div>
+            </div> 
+            <!-- Winner page -->
+            <div id="winner">
+                <h2 id="winnerName">Player X Win The Game!</h2>
+                <div id="button">
+                    <button id="quit">Play Again</button>
+                    <script src="js/main.js"></script> 
+                    <script type="module">
+                     import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+                     confetti();
+                   </script>
+                </div>
+            </div>
+        </div>
+    
+  
+</body>
+</html>
